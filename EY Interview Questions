@@ -93,4 +93,4 @@ from customers c
 join transactions t on c.customer_id = t.customer_id
 where transaction_date>='2023-09-01' and transaction_date<='2023-09-30'
 group by 1
-having count(transaction_id)>=5;
+having count(transaction_id)>5;
