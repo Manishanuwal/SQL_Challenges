@@ -1,5 +1,3 @@
--- Day 43/100 SQL Challenge
-
 DROP TABLE IF EXISTS Rides;
 DROP TABLE IF EXISTS Drivers;
 
